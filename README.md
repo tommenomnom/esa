@@ -38,5 +38,7 @@ To setup the environment, the following Python packages should be installed via 
 - `pip install notebook` will install Jupyter Notebook. This might not be necessary for advanced users but it is easier to adjust and test code with.
 
 
-##Physical setup
+## Physical setup
 To begin with, the Arduino and LED strip are connected in the following way:
+
+![LED circuit](https://github.com/tommenomnom/esa/blob/main/inc/LED_circuit.png?raw=true)
