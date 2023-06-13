@@ -13,6 +13,7 @@ The setup of this user study requires the following hardsware:
 - Makeshift HUD. We used [this](https://www.youtube.com/watch?v=m9AUhavpY7o&ab_channel=ProjectDiY) tutorial for inspiration but created it into a stand.
 - Makeshift steering wheel
 - Makeshift dashboard to attach the LED's on
+- A phone that has the [SuRT](https://www.researchgate.net/figure/Surrogate-reference-task-SuRT-example-screen_fig5_256446631) app installed to distract the participant
 - 2x phone that can be linked to mirror screens. We used [Airdroid](https://play.google.com/store/apps/details?id=com.sand.aircast&hl=en_US&pli=1) for this.
 
 LED setup:
@@ -63,8 +64,24 @@ The following steps then need to be completed:
 - Connect The big screen that is used to display the road scenario is via HDMI to the computer and set the display mode to duplicate screen.
 - Connect a pair of headphones to the computer and set the sound output accordingly.
 
-## Running the code
+## Running the test
 
-To run the code, open the 
+A participant may now be seated in the setup. Hand them the phone with the SuRT app and let them start playing the game. The headphones should be put on to make sure they hear the audio. You can then move on to running the scenario.
+
+1. open a console from the folder you pulled this repository to. run the following command: `jupyter notebook`
+This will open a browser screen with Jupyter Notebook. In this window, navigate to the `python-scripts` folder and open the script of the scenario you want to test.  
+
+2. navigate to the `arduino-scripts` folder of the repository and open the arduino script of the scenario you want to test with Arduino IDE.
+You should now have one window with the Python code and one window with the Arduino code.  
+
+3. make sure one of the mirrored phones is in the HUD display and the other one is ready with the HUD video of the scenario you want to test. The 'play' button on the phone should be pressed as soon as you start the test.
+
+4. To start running the scenario, select the window of the Arduino script. Press the upload button to upload this code to the Arduino.
+The right code is now on the Arduino and the simulation is ready to go.  
+
+5. Navigate to the python notebook window and press the 'Restart kernel and run all code' button (fast-forward icon in toolbar).
+The video will now launch and the cue will be sent to the Arduino to start running the code. Once the video launches, the play button on the HUD phone should be clicked to make sure this starts as simultaneously as possible. 
+
+The scenario will now run!
 
 
