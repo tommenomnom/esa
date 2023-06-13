@@ -1,14 +1,18 @@
-# ESA (Emegency Service Assistant) user study setup
+# ESA (Emergency Service Assistant) user study setup
 Repository with necessary files to replicate the user study that has been done on ESA. This involved researching a system to inform drivers of a level 3 automated vehicle of an incoming emergency vehicle like an ambulance, firetruck or police car.
 
 
 ## Equipment
 The setup of this user study requires the following hardsware:
 - A windows computer
+- A reasonably big, external screen
+- Chair for user seating
 - An Arduino Uno
 - A Breadboard
 - Closed back headphones with goed stereo imaging. We used the Beyerdynamic DT770 Pro.
 - Makeshift HUD. We used [this](https://www.youtube.com/watch?v=m9AUhavpY7o&ab_channel=ProjectDiY) tutorial for inspiration but created it into a stand.
+- Makeshift steering wheel
+- Makeshift dashboard to attach the LED's on
 - 2x phone that can be linked to mirror screens. We used [Airdroid](https://play.google.com/store/apps/details?id=com.sand.aircast&hl=en_US&pli=1) for this.
 
 LED setup:
@@ -39,6 +43,11 @@ To setup the environment, the following Python packages should be installed via 
 
 
 ## Physical setup
+
+The physical setup was built in a closed room with no public access. Curtains were closed to make sure the visibility of the screen and the HUD were optimal. As you can see, the LED's are attached to a dashboard that was created for this setup. In front of that is a steering wheel that the user can turn both left and right.  
+
+![Physical_setup](https://github.com/tommenomnom/esa/blob/main/inc/physical_setup.jpg?raw=true)
+
 To begin with, the Arduino and LED strip are connected in the following way:  
 
 ![LED circuit](https://github.com/tommenomnom/esa/blob/main/inc/LED_circuit.png?raw=true)
