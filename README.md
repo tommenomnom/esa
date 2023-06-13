@@ -1,6 +1,11 @@
 # ESA (Emergency Service Assistant) user study setup
 Repository with necessary files to replicate the user study that has been done on ESA. This involved researching a system to inform drivers of a level 3 automated vehicle of an incoming emergency vehicle like an ambulance, firetruck or police car.
 
+The test exists of the following three scenarios:
+**Scenario 1:** Car is driving on a two-lane road with a car in front of him and an ambulance coming in form the back. The ambulance passes the car on the left.
+**Scenario 2:** Car is driving on a two-lane road with a car in front of him that he passes after a while. The ambulance is coming from the back and passes him on the left.
+**Scenario 3:** Car is driving on a one-lane road with the ambulance coming in from behind. The car then has to move to the right onto the grass to let the ambulance pass by on the left.
+
 
 ## Equipment
 The setup of this user study requires the following hardsware:
