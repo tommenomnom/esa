@@ -57,6 +57,12 @@ The vibrating modules inside of the belt sleeve are connected to the Arduino in 
 
 ![VIB circuit](https://github.com/tommenomnom/esa/blob/main/inc/Vibration_circuit.png?raw=true)  
 
-The Arduino is then connected via USB to the windows computer.
+The Arduino is then connected via USB to the windows computer.  
+The big screen that is used to display the road scenario is connected via HDMI to the computer and the display mode is set to duplicate screen.
+A pair of headphones is also connected to the computer to output the sound.
+
+## Running the code
+
+
 
 
