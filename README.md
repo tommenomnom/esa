@@ -44,7 +44,7 @@ To setup the environment, the following Python packages should be installed via 
 
 ## Physical setup
 
-The physical setup was built in a closed room with no public access. Curtains were closed to make sure the visibility of the screen and the HUD were optimal. As you can see, the LED's are attached to a dashboard that was created for this setup. In front of that is a steering wheel that the user can turn both left and right.  
+The physical setup was built in a closed room with no public access. Curtains were closed to make sure the visibility of the screen and the HUD were optimal. As you can see, the LED's are attached to a dashboard that was created for this setup. In front of that is a steering wheel that the user can turn both left and right. Behind the setup, the researcher is seated to control the simulation setup.
 
 ![Physical_setup](https://github.com/tommenomnom/esa/blob/main/inc/physical_setup.jpg?raw=true)
 
