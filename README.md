@@ -9,6 +9,37 @@ The test exists of the following three scenarios:
 
 **Scenario 3:** Car is driving on a one-lane road with the ambulance coming in from behind. The car then has to move to the right onto the grass to let the ambulance pass by on the left.  
 
+## File structure
+
+
+    .
+    └── esa/  
+    ├── arduino-scripts/  
+    │   ├── Scenario_1/  
+    │   │   └── Scenario_1.ino (Arduino code for scenario 1)  
+    │   ├── Scenario_2/  
+    │   │   └── Scenario_2.ino (Arduino code for scenario 2)  
+    │   └── Scenario_3/  
+    │       └── Scenario_3.ino (Arduino code for scenario 3)  
+    ├── hud-videos/  
+    │   ├── scenario_1_hud.mp4 (HUD video for scenario 1)  
+    │   ├── scenario_2_hud.mp4 (HUD video for scenario 2)  
+    │   └── scenario_3_hud.mp4 (HUD video for scenario 3)  
+    ├── inc (Readme content)/  
+    │   ├── LED_circuit.png (Readme image)  
+    │   ├── Vibration_circuit.png (Readme image)  
+    │   └── physical_setup.png (Readme image)  
+    ├── python-scripts/  
+    │   ├── scenario_1.ipynb (Jupyter Notebook thar runs scenario 1)  
+    │   ├── scenario_2.ipynb (Jupyter Notebook thar runs scenario 2)  
+    │   └── scenario_3.ipynb (Jupyter Notebook thar runs scenario 3)  
+    ├── scenario-videos/  
+    │   ├── scenario_1_road.mp4 (Scenario video for on-screen of scenario 1)  
+    │   ├── scenario_2_road.mp4 (Scenario video for on-screen of scenario 2)  
+    │   └── scenario_3_road.mp4 (Scenario video for on-screen of scenario 3)  
+    └── README.md
+
+
 
 ## Equipment
 The setup of this user study requires the following hardsware:
