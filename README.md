@@ -69,7 +69,7 @@ The following steps then need to be completed:
 A participant may now be seated in the setup. Hand them the phone with the SuRT app and let them start playing the game. The headphones should be put on to make sure they hear the audio. You can then move on to running the scenario.
 
 1. open a console from the folder you pulled this repository to. run the following command: `jupyter notebook`
-This will open a browser screen with Jupyter Notebook. In this window, navigate to the `python-scripts` folder and open the script of the scenario you want to test. Note that you will have to change the COM serial port in the code to the one your Arduino is connected to. You can check this in the left top dropdown in the Arduino IDE.
+This will open a browser screen with Jupyter Notebook. In this window, navigate to the `python-scripts` folder and open the script of the scenario you want to test. Note that you will have to change the COM serial port in the python code to the one your Arduino is connected to. You can check this in the left top dropdown in the Arduino IDE.
 
 2. navigate to the `arduino-scripts` folder of the repository and open the arduino script of the scenario you want to test with Arduino IDE.
 You should now have one window with the Python code and one window with the Arduino code.  
