@@ -74,7 +74,7 @@ This will open a browser screen with Jupyter Notebook. In this window, navigate 
 2. navigate to the `arduino-scripts` folder of the repository and open the arduino script of the scenario you want to test with Arduino IDE.
 You should now have one window with the Python code and one window with the Arduino code.  
 
-3. make sure one of the mirrored phones is in the HUD display and the other one is ready with the HUD video of the scenario you want to test. The 'play' button on the phone should be pressed as soon as you start the test.
+3. make sure one of the mirrored phones is in the HUD display and the other one is ready with the HUD video of the scenario you want to test located in the `hud-videos` folder . The 'play' button on the phone should be pressed as soon as you start the test.
 
 4. To start running the scenario, select the window of the Arduino script. Press the upload button to upload this code to the Arduino.
 The right code is now on the Arduino and the simulation is ready to go.  
