@@ -31,6 +31,7 @@ Vibrating belt setup:
 ## Prequisites
 The following programs should be installed on your computer:
 - [Arduino IDE](https://www.arduino.cc/en/software) (Tested on 2.1.0)
+- Arduino FastLED library. This can be added in Arduino IDE via `Sketch -> Include library`.
 - [Python](https://www.python.org/downloads/) (Tested on 3.10)
 - [VLC Media Player](https://www.videolan.org/vlc/) (**VERY IMPORTANT!** Make sure to install the 64-bit version of this program)
 
