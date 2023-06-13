@@ -35,3 +35,8 @@ The following programs should be installed on your computer:
 To setup the environment, the following Python packages should be installed via the console:
 - `pip install pyserial` will install the package to be able to communicate with the Arduino.
 - `pip install python-vlc` will install the package to control the VLC media player.
+- `pip install notebook` will install Jupyter Notebook. This might not be necessary for advanced users but it is easier to adjust and test code with.
+
+
+##Physical setup
+To begin with, the Arduino and LED strip are connected in the following way:
