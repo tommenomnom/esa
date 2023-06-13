@@ -39,6 +39,15 @@ To setup the environment, the following Python packages should be installed via 
 
 
 ## Physical setup
-To begin with, the Arduino and LED strip are connected in the following way:
+To begin with, the Arduino and LED strip are connected in the following way:  
 
 ![LED circuit](https://github.com/tommenomnom/esa/blob/main/inc/LED_circuit.png?raw=true)
+
+
+The vibrating modules inside of the belt sleeve are connected to the Arduino in this way:  
+
+![VIB circuit](https://github.com/tommenomnom/esa/blob/main/inc/Vibration_circuit.png?raw=true)  
+
+The Arduino is then connected via USB to the windows computer.
+
+
