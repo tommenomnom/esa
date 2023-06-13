@@ -31,7 +31,7 @@ The following programs should be installed on your computer:
 - [VLC Media Player](https://www.videolan.org/vlc/) (**VERY IMPORTANT!** Make sure to install the 64-bit version of this program)
 
 
-## Setup
+## Environment
 To setup the environment, the following Python packages should be installed via the console:
 - `pip install pyserial` will install the package to be able to communicate with the Arduino.
 - `pip install python-vlc` will install the package to control the VLC media player.
